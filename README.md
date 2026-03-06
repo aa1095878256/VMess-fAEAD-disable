@@ -6,12 +6,12 @@ This script adds the environment variable `V2RAY_VMESS_AEAD_FORCED=false` to the
 ## Instructions
 ### Interactive
 ```
-wget -O VMess-fAEAD-disable.sh https://raw.githubusercontent.com/KukiSa/VMess-fAEAD-disable/main/main.sh && bash VMess-fAEAD-disable.sh
+wget -O VMess-fAEAD-disable.sh https://raw.githubusercontent.com/aa1095878256/VMess-fAEAD-disable/main/main.sh && bash VMess-fAEAD-disable.sh
 ```
 
 ### Batch Processing
 ```
-wget -O VMess-fAEAD-disable-nostatus.sh https://raw.githubusercontent.com/KukiSa/VMess-fAEAD-disable/main/no-status.sh && bash VMess-fAEAD-disable-nostatus.sh <value>
+wget -O VMess-fAEAD-disable-nostatus.sh https://raw.githubusercontent.com/aa1095878256/VMess-fAEAD-disable/main/no-status.sh && bash VMess-fAEAD-disable-nostatus.sh <value>
 ```
 
 The parameter `<value>` is the path of `v2ray.service`, if not filled in, the default is `/etc/systemd/system/v2ray.service`.
